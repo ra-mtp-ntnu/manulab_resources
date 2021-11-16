@@ -1,2 +1,2 @@
-# manulab_resources
+# Manulab Resources
 This repository includes various resources (URDFs, meshes, moveit_config packages) needed for working robots in Manulab.
