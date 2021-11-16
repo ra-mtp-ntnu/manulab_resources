@@ -1,5 +1,5 @@
-# fanuc_description
+# kuka_kr6r900sixx_description
 
-The URDF model and meshes contained in this package were copied from the ROS-Industrial `fanuc_m10ia_support` package and adapted for use with `moveit_resources`.
+The URDF model and meshes contained in this package were copied from the ROS-Industrial `kuka_kr6_support` package.
 
-All imported files were released under the BSD 3-Clause license.
+All imported files were released under the Apache 2.0 license.
