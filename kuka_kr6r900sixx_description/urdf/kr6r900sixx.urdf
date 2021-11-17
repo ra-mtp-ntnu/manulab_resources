@@ -4,7 +4,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://manulab_resources_manulab_resources_kuka_kr6r900sixx_description/meshes/visual/base_link.dae"/>
+        <mesh filename="package://manulab_resources_kuka_kr6r900sixx_description/meshes/visual/base_link.dae"/>
       </geometry>
       <material name="">
         <color rgba="0.505882352941 0.470588235294 0.388235294118 1.0"/>
