@@ -186,7 +186,7 @@ def generate_launch_description():
 
     # Load controllers
     load_controllers = []
-    for controller in ["arm_controller", "joint_state_broadcaster"]:
+    for controller in ["kr6r900sixx_arm_controller", "joint_state_broadcaster"]:
         load_controllers += [
             ExecuteProcess(
                 cmd=["ros2 run controller_manager spawner.py {}".format(controller)],
