@@ -1,5 +1,5 @@
 <launch>
-  <include file="$(find manulab_resources_kuka_kr6r900sixx_moveit_config)/launch/demo.launch">
+  <include file="$(find manulab_resources_kr6r900sixx_moveit_config)/launch/demo.launch">
     <arg name="use_gui" value="false"/>
     <arg name="use_rviz" value="false"/>
   </include>
