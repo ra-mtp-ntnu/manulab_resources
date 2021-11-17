@@ -4,6 +4,6 @@
     A URDF file must exist for this robot as well, where the joints and the links that are referenced are defined
 -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kr6r900sixx">
-  <xacro:include filename="$(find manulab_resources_kr6r900sixx_moveit_config)/config/kr6r900sixx_arm.xacro" />
+  <xacro:include filename="$(find manulab_resources_kuka_kr6r900sixx_moveit_config)/config/kr6r900sixx_arm.xacro" />
   <xacro:kr6r900sixx_arm />
 </robot>

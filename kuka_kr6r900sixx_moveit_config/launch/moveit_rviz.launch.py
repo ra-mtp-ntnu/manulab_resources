@@ -40,7 +40,7 @@ def generate_launch_description():
     )
 
     kinematics_yaml = load_yaml(
-        "manulab_resources_kr6r900sixx_moveit_config", "config/kinematics.yaml"
+        "manulab_resources_kuka_kr6r900sixx_moveit_config", "config/kinematics.yaml"
     )
 
     # RViz

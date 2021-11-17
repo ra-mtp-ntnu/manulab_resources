@@ -1,14 +1,12 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="panda">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kr6r900sixx">
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
-    <!-- Import panda urdf file -->
-    <xacro:include filename="$(find manulab_resources_kr6r900sixx_description)/urdf/panda.urdf" />
+    <!-- Import urdf file -->
+    <xacro:include filename="$(find manulab_resources_kuka_kr6r900sixx_description)/urdf/kr6r900sixx.urdf" />
 
-    <!-- Import panda ros2_control description -->
-    <xacro:include filename="panda.ros2_control.xacro" />
-    <xacro:include filename="panda_hand.ros2_control.xacro" />
+    <!-- Import ros2_control description -->
+    <xacro:include filename="kr6r900sixx.ros2_control.xacro" />
 
-    <xacro:panda_ros2_control name="PandaFakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
-    <xacro:panda_hand_ros2_control name="PandaHandFakeSystem"/>
+    <xacro:kr6r900sixx_ros2_control name="ArmFakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
 </robot>

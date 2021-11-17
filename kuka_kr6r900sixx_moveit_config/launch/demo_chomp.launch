@@ -1,5 +1,5 @@
 <launch>
-  <include file="$(find manulab_resources_kr6r900sixx_moveit_config)/launch/demo.launch">
+  <include file="$(find manulab_resources_kuka_kr6r900sixx_moveit_config)/launch/demo.launch">
     <arg name="pipeline" value="chomp"/>
   </include>
 </launch>

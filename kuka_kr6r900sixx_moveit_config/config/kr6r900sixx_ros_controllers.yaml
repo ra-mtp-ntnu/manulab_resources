@@ -5,9 +5,6 @@ controller_manager:
     kr6r900sixx_arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-    panda_hand_controller:
-      type: position_controllers/GripperActionController
-
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
@@ -26,8 +23,3 @@ kr6r900sixx_arm_controller:
       - joint_a4
       - joint_a5
       - joint_a6
-      - joint_a7
-
-panda_hand_controller:
-  ros__parameters:
-    joint: panda_finger_joint1
