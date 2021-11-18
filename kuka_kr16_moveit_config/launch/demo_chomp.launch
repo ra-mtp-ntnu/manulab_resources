@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find manulab_resources_kuka_kr16_moveit_config)/launch/demo.launch">
+    <arg name="pipeline" value="chomp"/>
+  </include>
+</launch>
