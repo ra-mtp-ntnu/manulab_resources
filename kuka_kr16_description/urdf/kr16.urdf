@@ -16,13 +16,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/visual/base_link.dae"/>
+        <mesh filename="package://kuka_kr16_description/meshes/visual/base_link.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/collision/base_link.stl"/>
+        <mesh filename="package://kuka_kr16_description/meshes/collision/base_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -36,13 +36,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/visual/link_1.dae"/>
+        <mesh filename="package://kuka_kr16_description/meshes/visual/link_1.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/collision/link_1.stl"/>
+        <mesh filename="package://kuka_kr16_description/meshes/collision/link_1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -56,13 +56,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/visual/link_2.dae"/>
+        <mesh filename="package://kuka_kr16_description/meshes/visual/link_2.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/collision/link_2.stl"/>
+        <mesh filename="package://kuka_kr16_description/meshes/collision/link_2.stl"/>
       </geometry>
     </collision>
   </link>
@@ -76,13 +76,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/visual/link_3.dae"/>
+        <mesh filename="package://kuka_kr16_description/meshes/visual/link_3.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/collision/link_3.stl"/>
+        <mesh filename="package://kuka_kr16_description/meshes/collision/link_3.stl"/>
       </geometry>
     </collision>
   </link>
@@ -96,13 +96,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/visual/link_4.dae"/>
+        <mesh filename="package://kuka_kr16_description/meshes/visual/link_4.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/collision/link_4.stl"/>
+        <mesh filename="package://kuka_kr16_description/meshes/collision/link_4.stl"/>
       </geometry>
     </collision>
   </link>
@@ -116,13 +116,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/visual/link_5.dae"/>
+        <mesh filename="package://kuka_kr16_description/meshes/visual/link_5.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/collision/link_5.stl"/>
+        <mesh filename="package://kuka_kr16_description/meshes/collision/link_5.stl"/>
       </geometry>
     </collision>
   </link>
@@ -136,13 +136,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/visual/link_6.dae"/>
+        <mesh filename="package://kuka_kr16_description/meshes/visual/link_6.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://kuka_kr16_support/meshes/collision/link_6.stl"/>
+        <mesh filename="package://kuka_kr16_description/meshes/collision/link_6.stl"/>
       </geometry>
     </collision>
   </link>
