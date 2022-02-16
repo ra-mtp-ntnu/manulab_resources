@@ -1,5 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="kuka_lbr_iiwa_14_r820" xmlns:xacro="http://wiki.ros.org/xacro">
   <xacro:include filename="$(find kuka_lbr_iiwa_description)/urdf/lbr_iiwa_14_r820_macro.xacro"/>
+  <xacro:include filename="$(find kuka_lbr_iiwa_description)/ros2_control/lbr_iiwa_14_r820.ros2_control.xacro"/>
   <xacro:kuka_lbr_iiwa_14_r820 prefix=""/>
+  <xacro:kuka_lbr_iiwa_14_ros2_control name="LBR" prefix=""/>
 </robot>

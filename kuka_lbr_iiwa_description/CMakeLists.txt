@@ -5,5 +5,5 @@ find_package(ament_cmake REQUIRED)
 
 ament_package()
 
-install(DIRECTORY config launch meshes urdf
+install(DIRECTORY config launch meshes ros2_control urdf
   DESTINATION share/${PROJECT_NAME})
